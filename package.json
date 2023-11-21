@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "\"npm run seed-db\" \"npm run start-server\"",
+    "start": "npm run start-server",
     "dev": "nodemon server.js",
     "test": "jest -i",
     "seed-db": "psql < jobly-seed-deployment.sql",
