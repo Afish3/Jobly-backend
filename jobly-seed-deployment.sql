@@ -5,3 +5,5 @@ CREATE DATABASE jobly;
 
 \i jobly-schema.sql
 \i jobly-seed.sql
+
+\q
